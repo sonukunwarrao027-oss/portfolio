@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+
+    <h1>About Page</h1>
+    <hr>
+
+     <nav>
+    <a href="/">Home</a> |
+    <a href="/about">About</a> |
+    <a href="/projects">Project</a> |
+    <a href="/contact">Contact</a>
+    </nav>
+    </header>
+    <hr>
+    <main>
+
+        <div class = "about-container">
+
+    <h2> Introduction </h2>
+    <p>Hello! My name is Sonu Kunwar Rao.</p>
+    
+    <p>I am a Computer Science Engineering student with an
+
+interest in Data Science, Machine Learning,Flask and
+
+Artificial Intelligence.</p>
+<p>I enjoy learning new technologies and building
+
+projects using Python, HTML, CSS, and Flask.</p>
+
+
+
+ <h2>My Skills</h2>
+<div class='pill-container'>
+  <span class='pill'>Java</span>
+  <span class='pill'>Python</span>
+  <span class='pill'>HTML</span>
+  <span class='pill'>Flask</span>
+  <span class='pill'>Artificial Intelligence</span>
+</div>
+
+<h2>My Hobbies</h2>
+<div class='pill-container'>
+  <span class='pill'>Coding</span>
+  <span class='pill'>Learning New Technologies</span>
+  <span class='pill'>Crochet</span>
+  <span class='pill'>Listening to Music</span>
+</div>
+</div>  
+    </main> 
+     <hr>
+
+    <footer>
+
+        <p>&copy; 2026 Sonu Kunwar Rao. All Rights Reserved.</p>
+
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

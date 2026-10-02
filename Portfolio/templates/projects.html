@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+   <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+
+    <h1>Contact Page</h1>
+    <hr>
+
+     <nav>
+    <a href="/">Home</a> |
+    <a href="/about">About</a> |
+    <a href="/projects">Project</a> |
+    <a href="/contact">Contact</a>
+    </nav>
+    </header>
+    <hr>
+    <main>
+
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3><i class="fa-solid fa-seedling"></i> Farmer Guider AI App</h3>
+        <p>
+            An ML-based farming application providing personalized
+            crop and farming recommendations based on user inputs.
+        </p>
+
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3><i class="fa-solid fa-robot"></i> BISMITRA AI</h3>
+        <p>
+            An AI assistant prototype for helping industries and
+            consumers access Indian Standards and BIS services.
+        </p>
+
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+       <h3><i class="fa-solid fa-laptop-code"></i> Personal Portfolio Website</h3>
+        <p>
+            A responsive personal portfolio website built using
+            Python, Flask, HTML, CSS and JavaScript.
+        </p>
+
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    </main>
+    <hr>
+    <footer>
+
+        <p>&copy; 2026 Sonu Kunwar Rao. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    
+</body>
+</html>
